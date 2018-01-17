@@ -1,0 +1,36 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  max-width: 700px;
+  width: 80%;
+  margin: 20px auto;
+  border: 20px solid #bdc3c7;
+  padding: 20px;
+}
+
+.firstpara {
+  border-left: 5px solid #bdc3c7;
+  padding-left: 5px;
+}
+
+.date {
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  color: #3498db;
+}
+
+h2 {
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 2em;
+  color: #2c3e50
+}
+
+.post{
+  margin-bottom: 20px;
+}
+hr{
+  /* Gradient transparent - color - transparent */
+      border: 0;
+      height: 1px;
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
