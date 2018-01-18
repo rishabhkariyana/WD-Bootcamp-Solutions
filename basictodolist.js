@@ -16,6 +16,8 @@ while (ans !== "quit") {
 }
 console.log("Ok, you quit the app");
 
+// Functions
+
 function listTodos() {
   console.log("***********");
   todos.forEach(function (todo, i) {
